@@ -11,13 +11,14 @@ const Header: FC = () => {
       <div>
         <div className="">
           <img
+            alt="footer_bg"
             src={FooterBg}
-            className="w-[1440px] h-auto absolute bg-cover bg-center"
+            className="w-[1439px] h-auto absolute bg-cover bg-center"
           />
           <div className="flex flex-col items-center justify-center">
             <div className="relative flex flex-col md:w-1/2 mt-16 items-center mb-[120px]">
               <h1 className="w-145 text-lg font-bold text-black text-center md:text-3xl">
-                We have what you’re looking for
+                We have what you are looking for
               </h1>
               <p className="w-108.2 text-center text-xs text-blue-500 md:text-center pt-10">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
